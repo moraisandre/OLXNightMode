@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "OLX Night Mode",
+  "description": "Come to the dark site of OLX",
+  "version": "1.0",
+  "omnibox": { "keyword" : "olx" },
+  "icons": {
+    "16": "icons/olx_icon16.png",
+    "48": "icons/olx_icon48.png",
+    "128": "icons/olx_icon128.png"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icons/olx_icon48.png",
+    "default_title": "OLX Night Mode"
+  },
+  "permissions": ["storage", "tabs"],
+  "content_scripts": [{
+    "matches": ["*://olx.com.br/*", "*://*.olx.com.br/*", "*://conta.olx.com.br/chats"],
+    "css": ["css/night-mode.css"]
+  }],
+  "web_accessible_resources": ["images/*.png"],
+  "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'"
+}
