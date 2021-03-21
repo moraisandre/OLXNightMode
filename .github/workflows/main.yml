@@ -35,4 +35,4 @@ jobs:
           # Filename for archive
           filename: 'olx-darkmode-ext.zip'
           # List of excluded files / directories
-          exclusions: '*.git* README.md'
+          exclusions: '*.git* README.md LICENSE'
