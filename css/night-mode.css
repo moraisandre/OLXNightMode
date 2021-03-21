@@ -22,6 +22,8 @@ a.sc-htpNat.gBpIXz {
 html,
 header,
 .sticky-inner-wrapper,
+.bigger-grid-style,
+div.bg-white.pb-section,
 div.sc-hmzhuo.fFyjgz.sc-jTzLTM.iwtnNi,
 div.sc-hmzhuo.inUUEM.sc-jTzLTM.iwtnNi,
 div.sc-hmzhuo.hMZElg.sc-jTzLTM.iwtnNi,
@@ -39,11 +41,18 @@ nav.sc-kAzzGY.eZZlZs.sc-eNQAEJ.jOSdlL,
 ul.ja3zle-8.jkUIbu,
 div.sc-hmzhuo.gqoVfS.sc-jTzLTM.iwtnNi,
 div.sc-hEsumM.sc-VJcYb.eFAysm,
+footer.sc-esjQYD.jqbXNu,
+div.pb-section,
+div.d-none.d-lg-block.bg-white.pt-5.pb-5,
+div.box-ad.box-ad-bottom,
 div.sc-hEsumM.drrtP.sc-bwCtUz.bLtgBa,
+div.container.pt-5.pb-5,
 span.sc-tilXH.SIBga.sc-TFwJa.cNGxwe,
+div.iza-bottom div.iza-container.container,
+nav.sc-exAgwC.dwIaQo.sc-krvtoX.glPakV,
 div.sc-hEsumM.sc-krDsej.euhxsi,
 span.sc-1bofr6e-1.iUNkan.sc-ifAKCX.bBbnjQ {
-  background-color: #3a3a3a;
+  background-color: #3a3a3a !important;
 }
 
 form label,
@@ -79,6 +88,14 @@ span.sc-tilXH.SIBga.sc-hzNEM.dJmGYQ,
 span.sc-tilXH.SIBga.sc-TFwJa.cNGxwe,
 span.sc-ifAKCX.eNggKY,
 span.sc-htoDjs.cUEgYn,
+nav.sc-bsbRJL.fExwfz a,
+div.sc-ibxdXY.jGfqyb a,
+div.popular-container a,
+.hdJcFQ,
+.cULaGM,
+.rNPgT,
+.grqrOI,
+.gNWPkq,
 span.sc-htoDjs.cHPCiU {
   color: #eaeaea !important;
 }
@@ -107,6 +124,7 @@ div.sc-hEsumM.sc-jKVCRD.jUFpPL,
 .endvnA:hover,
 .bRMEuy:hover,
 .dOCFEw:hover,
+.dMMbVM:hover,
 .cNGxwe:hover,
 .dwqnve:hover {
   background-color: #565656 !important;
@@ -121,6 +139,7 @@ div.sc-hEsumM.drrtP.sc-bmyXtO.jckeSd {
 
 a.sc-jDwBTQ.fiHbAO,
 a.sc-cMljjf.eoaXPh,
+a.sc-gPEVay.irtqwE,
 button.sc-gPzReC.gGRQfO {
   background: #c2661a !important;
 }
@@ -137,6 +156,7 @@ span.sc-tilXH.SIBga.sc-LKuAh.gYCLVl {
 
 div.sc-hEsumM.drrtP.sc-bmyXtO.geBOgR,
 div.sc-hEsumM.drrtP.sc-bmyXtO.gKXYzj,
+.iza-top,
 div.sc-hEsumM.drrtP.sc-bmyXtO.fbQSPJ {
   background: #4e207e !important;
 }
@@ -147,6 +167,7 @@ li.enabled.ja3zle-9.dsgOFF,
 div.enabled.ja3zle-4.joaQam,
 div.sc-hmzhuo.rd4d6d-0.RyLDW.sc-jTzLTM.iwtnNi,
 div.sc-hEsumM.sc-dBaXSw.QENSx,
+div.searchSuggestBox,
 textarea.sc-cmIlrE.bBhAMs.sc-gleUXh.hYaRub,
 textarea.sc-cmIlrE.eTWzCL.sc-gleUXh.hYaRub {
   background-color: #5a5a5a !important;
@@ -154,14 +175,20 @@ textarea.sc-cmIlrE.eTWzCL.sc-gleUXh.hYaRub {
 }
 
 /* ------------============ Borders ============------------ */
+div.sc-eerKOB.juBRqq,
 div.sc-eilVRo.hdYpdZ,
 div.sc-jDwBTQ.ggFbJG,
 div.sc-gzOgki.kxDlpg.sc-jTzLTM.iwtnNi,
 div.sc-ifAKCX.jYddxX.sc-eqIVtm.cYMCtj,
 div.sc-hEsumM.sc-VJcYb.eFAysm,
 div.sc-hEsumM.sc-dBaXSw.QENSx,
+div.sc-fjdhpX.fUKTLX.sc-iyvyFf.cICwqP,
 div.sc-hEsumM.sc-bYSBpT.gcKzYt {
-  border-color: #717171;
+  border-color: #717171 !important;
+}
+
+.searchSubmitBtn {
+    border-left-color: #717171 !important;
 }
 
 div.sc-hmzhuo.sc-1koxwg0-0.eJGOcN.sc-jTzLTM.iwtnNi,
@@ -169,7 +196,8 @@ div.sc-hmzhuo.sc-1ncgzjx-0.bGtMjx.sc-jTzLTM.iwtnNi,
 div.jx24x3-1.eNhFxH.false.sc-11ykbmp-0.ioAVKB,
 div.sc-hEsumM.sc-hCaUpS.bjGUzP,
 div.sc-hEsumM.sc-jKVCRD.jUFpPL,
-div.enabled.ja3zle-4.joaQam {
+div.enabled.ja3zle-4.joaQam,
+.searchWrapBox {
   border: 1px solid #717171;
 }
 
@@ -178,6 +206,7 @@ div.searchBox {
 }
 
 .fPBoro,
+.exlmO,
 li.wodqy3-0.ezfpNd,
 li.sc-1fcmfeb-2.cfLiFC,
 li.sc-1fcmfeb-2.juiJqh,
@@ -186,6 +215,7 @@ footer.sc-kfGgVZ.dFBBuR,
 div.sc-jzJRlG.ejaRks,
 div.sc-kpOJdX.ljQBan,
 div.sc-hEsumM.sc-kafWEX.dSpQVL,
+footer.sc-esjQYD.jqbXNu,
 footer.sc-kjoXOD.igOFrg {
   border-top: 1px solid #717171 !important;
 }
@@ -209,10 +239,15 @@ li.wodqy3-0.ezfpNd,
 div.sc-hEsumM.sc-kafWEX.dSpQVL {
   border-left: 1px solid #717171 !important;
 }
+div.discovery-gallery a {
+    border-color: #3a3a3a !important;
+}
 
 /* ------------============ SVG Path ============------------ */
 div.sc-kpOJdX.byzSES.sc-jTzLTM.iwtnNi svg path,
-div.sc-ifAKCX.jYddxX.sc-kkGfuU.idUuxE svg path {
+div.sc-fjdhpX.fUKTLX.sc-dxgOiQ.hjiBrP svg path,
+div.sc-ifAKCX.jYddxX.sc-kkGfuU.idUuxE svg path,
+.searchSubmitBtn svg path {
   fill: #eaeaea;
 }
 
@@ -238,4 +273,8 @@ div.sc-hEsumM.sc-doWzTn.eqQebX svg.sc-esjQYD.kXQCMC path {
 button.rd4d6d-2.bFOeuH {
   margin: -1px;
   border-radius: 0px 6px 6px 0px;
+}
+
+div.searchSuggestBox {
+    border-radius: 4px;
 }
