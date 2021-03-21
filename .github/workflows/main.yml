@@ -30,7 +30,5 @@ jobs:
         with:
           # Filename for archive
           filename: 'olx-darkmode-ext.zip'
-          # Working directory before zipping
-          directory: package
           # List of excluded files / directories
           exclusions: '*.git* README.md'
